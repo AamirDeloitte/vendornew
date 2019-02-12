@@ -12,6 +12,7 @@ sap.ui.define([
 	Search_press: function(){
 		
 	var url;
+	var tabs;
 	var vendor = this.getView().byId("input0").getValue();	
 	url = "/sap/opu/odata/SAP/ZVENDOR_SRV/VendorDetailsSet?$filter=Vendor eq '"+ vendor +"' ";
 	var oModel = new sap.ui.model.json.JSONModel();
