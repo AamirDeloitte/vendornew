@@ -18,6 +18,10 @@
         "entryPath": "/test-resources"
       },
       "description": "SAPUI5 Test Resources"
+<<<<<<< HEAD
+=======
+
+>>>>>>> refs/heads/master
     },
     {
       "path": "/sap/opu/odata",

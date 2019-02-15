@@ -12,7 +12,15 @@ sap.ui.define([
 
 				iShouldSeeTheApp: function () {
 					return this.waitFor({
+<<<<<<< HEAD
 						id: "idAppControl",
+=======
+<<<<<<< HEAD
+						id: "app",
+=======
+						id: "idAppControl",
+>>>>>>> refs/heads/master
+>>>>>>> refs/heads/master
 						viewName: sViewName,
 						success: function () {
 							Opa5.assert.ok(true, "The View1 view is displayed");
