@@ -5,8 +5,13 @@ sap.ui.define([
 
 	return Opa5.extend("VendorMaster.VendorMaster.test.integration.arrangements.Startup", {
 
+<<<<<<< HEAD
 		iStartMyApp: function (oOptionsParameter) {
 			var oOptions = oOptionsParameter || {};
+=======
+		iStartMyApp: function (oOptions) {
+			oOptions = oOptions || {};
+>>>>>>> refs/heads/master
 
 			// start the app with a minimal delay to make tests fast but still async to discover basic timing issues
 			oOptions.delay = oOptions.delay || 50;
