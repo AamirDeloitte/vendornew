@@ -10,8 +10,4 @@
   "scripts": {
     "test": "grunt unit_and_integration_tests"
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> refs/heads/master

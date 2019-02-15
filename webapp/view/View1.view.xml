@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-<mvc:View controllerName="VendorMaster.VendorMaster.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
-	<Shell id="shell">
-		<App id="app">
-			<pages>
-				<Page id="page" title="{i18n>title}">
-					<content></content>
-				</Page>
-			</pages>
-		</App>
-	</Shell>
-=======
 <mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:smartTable="sap.ui.comp.smarttable" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form" xmlns:layout="sap.ui.layout" xmlns:form="sap.ui.layout.form" xmlns:flex="sap.m.FlexAlignContent" controllerName="VendorMaster.VendorMaster.controller.View1" displayBlock="true">
 	<App id="idAppControl">
 		<pages>
@@ -47,5 +35,4 @@
 			</Page>
 		</pages>
 	</App>
->>>>>>> refs/heads/master
 </mvc:View>
