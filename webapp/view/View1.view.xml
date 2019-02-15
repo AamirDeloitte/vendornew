@@ -5,6 +5,7 @@
 				<content>
 					
 				<Label text="Vendor" width="30%" id="label0" />
+				<Label/>
 					
 				<Input xmlns="sap.m" value=" " id="input0" width="40%"/>
 				
