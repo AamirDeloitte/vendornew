@@ -6,10 +6,18 @@ sap.ui.define([
 	return Opa5.extend("VendorMaster.VendorMaster.test.integration.arrangements.Startup", {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		iStartMyApp: function (oOptions) {
 			oOptions = oOptions || {};
 =======
 <<<<<<< HEAD
+		iStartMyApp: function (oOptionsParameter) {
+			var oOptions = oOptionsParameter || {};
+=======
+		iStartMyApp: function (oOptions) {
+			oOptions = oOptions || {};
+>>>>>>> refs/heads/master
+=======
 		iStartMyApp: function (oOptionsParameter) {
 			var oOptions = oOptionsParameter || {};
 =======

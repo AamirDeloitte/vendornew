@@ -12,6 +12,7 @@ sap.ui.define([
 		var oAppController = new Controller();
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 ], function (Controller) {
 	"use strict";
 
@@ -19,6 +20,15 @@ sap.ui.define([
 
 	QUnit.test("I should test the View1 controller", function (assert) {
 		var oAppController = new Controller();
+=======
+], function (oController) {
+	"use strict";
+
+	QUnit.module("View1 Controller");
+
+	QUnit.test("I should test the View1 controller", function (assert) {
+		var oAppController = new oController();
+>>>>>>> refs/heads/master
 =======
 ], function (oController) {
 	"use strict";

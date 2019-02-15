@@ -13,9 +13,15 @@ sap.ui.define([
 				iShouldSeeTheApp: function () {
 					return this.waitFor({
 <<<<<<< HEAD
+<<<<<<< HEAD
 						id: "idAppControl",
 =======
 <<<<<<< HEAD
+						id: "app",
+=======
+						id: "idAppControl",
+>>>>>>> refs/heads/master
+=======
 						id: "app",
 =======
 						id: "idAppControl",

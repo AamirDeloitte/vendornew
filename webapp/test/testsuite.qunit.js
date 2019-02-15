@@ -5,10 +5,16 @@ window.suite = function () {
 	/* eslint-disable new-cap */
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 // eslint-disable-next-line sap-no-global-define
 window.suite = function () {
 	"use strict";
 	/* eslint-disable new-cap */
+=======
+window.suite = function () {
+	"use strict";
+
+>>>>>>> refs/heads/master
 =======
 window.suite = function () {
 	"use strict";
